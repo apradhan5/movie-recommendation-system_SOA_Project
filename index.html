@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Haven</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">🎥 Movie Haven</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="#popular">Popular</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="watchlist.html">Watchlist</a>
+        <a href="#recommendations">Recommendations</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Movie Haven</h1>
+        <p>Discover your next favorite movie, curated just for you!</p>
+        <form id="search-form">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for a movie..."
+          />
+          <button type="submit">Search</button> <!-- Search button -->
+          <button type="button" id="cancel-search" class="cancel-btn" style="display: none;">&times;</button> <!-- Cancel button -->
+        </form>
+        </form>
+      </div>
+    </section>
+    
+
+    <!-- Popular Movies Section -->
+    <section id="popular" class="movies-section">
+      <h2>Popular Movies</h2>
+      <div class="movie-grid" id="popular-movie-grid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Movie Haven. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
